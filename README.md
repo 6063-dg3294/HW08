@@ -6,7 +6,7 @@ Before completing this week's homework, I began by reviewing the image class cod
 Also, regarding the DOM element, I'd like to try a simple slider to adjust the pattern or at least color of one of the blocks. Here is my final pseudo code:  
 1. Classify color using pixels' information like we did in class
 2. Specify color red, green, and yellow using if()
-3. Use if() to change red and green to two different colors
+3. Use if() to change red and blue to two different colors
 4. Use the slider to change yellow to a pattern
 
 
@@ -18,7 +18,13 @@ When creating color identifications, I can't help but noticed because black colo
 
 I named the parameter absWhite to detect if the color is white. Then, I discarded it and use the absRedGreen and absBlueGreen to detect if the numbers are too close to appear white. Here is what it looks like:
 ![image description](./4.png)
+I'm satisfied with the result.  
 
+
+# Change red & blue to different colors
+
+
+I found the goldfish image from (https://www.pinterest.com/pin/515943701074375359/). 
 
 
 
