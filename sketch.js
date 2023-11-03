@@ -6,7 +6,7 @@ let testWhite = false;
 
 function preload() {
   oCamera = loadImage("./Piet.jpeg")
-  xCamera = loadImage("./5.jpeg")
+  xCamera = loadImage("./7.jpeg")
 }
 
 
@@ -14,6 +14,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   pixelDensity(1);
   oCamera.resize(0, height);
+  xCamera.resize(0, height/2);
 
   oCamera.loadPixels();
 
@@ -60,7 +61,9 @@ function draw() {
     //   mCamera.pixels[vi + 1] = 200;
     // Blue value change
     } else if (maxVal == blueVal && blueVal > 70 && absRedGreen > 10 && absGreenBlue > 10){
-      mCamera.pixels[vi + 2] = 90 + nRed;
+      // mCamera.pixels[vi + 2] = 90 + nRed;
+      mCamera.pixels[vi + 3] = 0
+      
        
     } else {
       mCamera.pixels
@@ -68,6 +71,7 @@ function draw() {
 }
 
   mCamera.updatePixels();
+  image(xCamera, width/7 * 4, height/3 * 2);
   image(mCamera, (width - mCamera.width)/2, 0);
 }
 

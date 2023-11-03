@@ -22,10 +22,14 @@ I'm satisfied with the result.
 
 
 # Change red & blue to different colors
+To make the slider work, I consulted you to make a copy of image. Then, I adjusted the parameter of judging color based on this map's numbers.  
+![image description](./6.png)
 
 
-I found the goldfish image from (https://www.pinterest.com/pin/515943701074375359/). 
+# Try of replacing the blue area with an image
+I made the transparency to 0 and add an image outside the pixel if()s. I got the image from Pinterest (https://www.pinterest.com/pin/220887556714711282/).
 
+![image description](./8.png)
 
 
 
